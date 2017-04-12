@@ -1,11 +1,11 @@
-$(document).ready(function(){
-  $("#btn").click(function(e){
-    console.log("event", e);
-    console.log("event.target", e.target);
-    console.log("this", $(this)); //event.target as jquery object
-    console.log("this", this); // event.target
-  });
-});
+// $(document).ready(function(){
+//   $("#btn").click(function(e){
+//     console.log("event", e);
+//     console.log("event.target", e.target);
+//     console.log("this", $(this)); //event.target as jquery object
+//     console.log("this", this); // event.target
+//   });
+// });
   // this.a = 37;
   // console.log(window.a);
 
